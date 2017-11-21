@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script src="js/angular-1.4.6.min.js"></script>
+		<script src="js/angular-route.min.js"></script>
+		<script src="js/move1.js"></script>
+		<script src="index.js"></script>
+		<link rel="stylesheet" type="text/css" href="sass/index.css" />
+		<title></title>
+	</head>
+
+	<body ng-app="myapp" ng-controller="cont">
+		<div class="banner-lsb">
+			<div class="img-lsb">
+				<img src="img/bannner.png" class="img img-lsb-one" />
+				<img src="img/bannner.png" class="img" />
+				<img src="img/bannner.png" class="img" />
+				<img src="img/bannner.png" class="img" />
+				<img src="img/bannner.png" class="img" />
+				<div id="text-lsb">
+
+					<div class="main-lsb">
+						<h2>欢迎您下榻西藏日喀则星月酒店！</h2>
+						<p>畅游西藏，就在西藏日喀则星月酒店！</p>
+						<p>西藏日喀则星月坐落于日喀则，得天独厚的地理位置，方便到达铜锣湾主要娱乐购物区和湾仔商业区，</p>
+						<p>步行至驰名香港的时代广场购物中心和铜锣湾地铁站仅需八分 钟。下榻香港丽都酒店，体验香港休闲购物的最大乐趣。</p>
+						<p>酒店另设免费穿梭巴士服务，往返于香港著名的购物中心－时代广场、位于湾仔的香港会议及展览中心、</p>
+						<p>位 于金钟的太古广场和位于中环的国际金融中心。</p>
+						<img src="img/btn_bottom.png" id="button-lsb"></img>
+						<img src="img/btn_top.png" id="button2-lsb"></img>
+						<a href="#/a" class="luyou_lsb">首页</a>
+						<a href="#/b" class="luyou_lsb">购物车</a>
+						<a href="#/c" class="luyou_lsb">第三页</a>
+						<a href="#/d" class="luyou_lsb">第四页车</a>
+					</div>
+				</div>
+			</div>
+			<div class="nav-lsb">
+				<ol id="ol-lsb">
+					<li class="active"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ol>
+			</div>
+		</div>
+		<div ng-view></div>
+	</body>
+
+</html>
